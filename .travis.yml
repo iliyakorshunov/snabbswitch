@@ -10,7 +10,7 @@ before_install:
  
 script: make; cd src; make test
  
- # configure notifications (email, IRC, campfire etc)
+
 notifications:
    email:
     - iliya.korshunov@gmail.com
